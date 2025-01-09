@@ -1,6 +1,6 @@
 # AMYBO Data Sharing Platform
 
-Our data sharing platform
+Our data sharing platform.
 
 # STA Scoping
 
