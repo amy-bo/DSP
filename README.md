@@ -1,6 +1,6 @@
 # AMYBO Data Sharing Platform
 
-Our data sharing platform.
+Our data sharing platform which initially aims to let [Pioreactor](https://pioreactor.com) and [electroPioreactor](https://amy.bo/electropioreactor) users automatically stream data to an open repository.  This should accelerate alternative protein discovery by facilitating collaboration and the development of digital twins.
 
 # STA Scoping
 
@@ -34,7 +34,7 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 ## Existing Tech
 
-- The electroPioreactor is detailed [here](https://docs.pioreactor.com)
+- The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
 
 - It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
 
