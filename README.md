@@ -4,7 +4,7 @@ Our data sharing platform
 
 # STA Scoping
 
-The [original STA word document is available here]([url](https://github.com/Amybo-org/DSP/blob/main/AMYBO-DSP-STA%2BProject%2BScope%2BDocument%2BV0.4%2B(6).docx))
+The [original STA word document is available here](https://github.com/Amybo-org/DSP/blob/main/AMYBO-DSP-STA%2BProject%2BScope%2BDocument%2BV0.4%2B(6).docx)
 
 ## Background of the charity
 
