@@ -21,9 +21,7 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 ## Problem
 
 - In order to compare the growth of different HOB cultures in what we hope will be thousands of bioreactors, we need to get that data online.
-
 - We also want to give bioreactors away on a ‘free rental’ basis, so people pay nothing as long as they are doing useful experiments. We need an automated means of determining if this is happening.
-
 - We (and many others) would like to train AI on bioreactor data, but there is insufficient data available online (LLMs and Google’s AlphaFold were only successful because of the amount of data they could be trained on).
 
 ## Current state
@@ -32,15 +30,10 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 - Volunteers have to buy their own bioreactors
 - We have volunteers, but none have both the time and ability to set this system up.
 
-## Existing Tech
-
-- The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
-- It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
-- We have no volunteer database, but can request input from volunteers via [our forum](https://forum.amybo.org) and [YouTube](https://amy.bo/YouTube)
-
 ## Scope
 
 - Software on Pioreactor to automatically send standard data plus a number of additional text user-inputs to a data sharing platform
+  - The Pioreactor software should if possible be implemented as a [Pioreactor Plugin](https://docs.pioreactor.com/developer-guide/intro-plugins).
 - The data sharing platform collates data from electroPioreactors (scaleable to 1000’s)
 - Ability for anyone to download the dataset for analysis (assuming a manual download is easier than an API)
 - Training: It would be great to document the system both in the software and via training videos to ensure that it can be maintained long term by any volunteers.
@@ -48,29 +41,26 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 ## Goal
 
 - Pioreactors can be set up automatically to stream relevant data to an open source data sharing platform.
-
 - Having all this data on a data sharing platform will allow researchers to collaborate and learn from each other's work, it will allow them to train AI and digital twins on this data and
-
 - It will also allow us to monitor if free-rental bioreactors are being used as intended.
-
 - We would ideally like to have an initial data sharing platform set up by the end of Q1.
 
 ## Barriers to Project
 
 - Our constraints to date have been time/ability mismatches and lack of funding to contract out the project.
-
 - Martin has no planned holiday in the next 3 months, and works on AMYBO 95% full time.
 
 ## What conditions exist?
 
 - We will need to lend developers a Pioreactor. We are fully open source - no NDA.
-
 - The AMYBO community is in a position to procure/scale up the solution service for medium or long-term use – Prof Joshua Pearce of [uwo.ca](https://uwo.ca) offered to fund 10 electroPioreactors with $100k in kind academic support for a pilot trial, with hopefully 100 electroPioreactors to follow if successful.
 
-## Current Technology
+## Current/Existing Technology
 
-The Pioreactor software should if possible be implemented as a [Pioreactor Plugin](https://docs.pioreactor.com/developer-guide/intro-plugins).
-We have not started development of the Data Sharing Platform other than opening a [public repo](https://github.com/Amybo-org/DSP).
+- The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
+- It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
+- We have no volunteer database, but can request input from volunteers via [our forum](https://forum.amybo.org) and [YouTube](https://amy.bo/YouTube)
+- We have not started development of the Data Sharing Platform other than opening a [public repo](https://github.com/Amybo-org/DSP).
 
 
 ## Technology
