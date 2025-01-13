@@ -93,5 +93,5 @@ We are happy for STA to acknowledge the work we are doing with us and would poss
 
 - **Organisation top stakeholders**:
   - [Martin Currie](https://martin.aqueum.com)
-  - [Gerrit Niezen]([url](https://labcrafter.co.uk/pages/about-us))
+  - [Gerrit Niezen](https://labcrafter.co.uk/pages/about-us)
   - [Cam Davison-Pilon](https://github.com/camdavidsonpilon) (founder of Pioreactor who, while on paternity leave, will still likely be helpful via [forum.pioreactor.com](https://forum.pioreactor.com))
