@@ -87,8 +87,11 @@ We are happy for STA to acknowledge the work we are doing with us and would poss
 
 ---
 
-**Organisation main contact**: Martin Currie  
-**STA contact**: Jean Ferguson 
-**Date**: 08/01/2025  
+- **Organisation main contact**: [Martin Currie](https://martin.aqueum.com)
+- **STA contact**: Jean Ferguson 
+- **Date**: 08/01/2025  
 
-**Organisation top stakeholders**: Martin Currie, Gerrit Niezen, Cam Davison-Pilon (founder of Pioreactor who will likely be helpful via [forum.pioreactor.com](https://forum.pioreactor.com))
+- **Organisation top stakeholders**:
+  - Martin Currie,
+  - Gerrit Niezen,
+  - Cam Davison-Pilon (founder of Pioreactor who will likely be helpful via [forum.pioreactor.com](https://forum.pioreactor.com))
