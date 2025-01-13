@@ -4,7 +4,7 @@ Our data sharing platform which initially aims to let [Pioreactor](https://piore
 
 # STA Scoping
 
-The [original STA word document is available here](https://github.com/Amybo-org/DSP/raw/refs/heads/main/AMYBO-DSP-STA+Project+Scope+Document+V0.4+(6).docx)
+The [original STA word document is available here](https://github.com/Amybo-org/DSP/raw/refs/heads/main/AMYBO-DSP-STA+Project+Scope+Document+V0.4+(6).docx) but going forward, only the [page you are currently reading]([url](https://github.com/amy-bo/DSP/edit/main/README.md)) will be updated.
 
 ## Background of the charity
 
