@@ -28,15 +28,15 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 ## Current state
 
-- If they remember, people manually upload graphs of their data to [forum.amybo.org](https://forum.amybo.org)
+- If they remember, people manually upload graphs of their data to [forum.amybo.org](https://forum.amybo.org) - at least 2 have to date
 - Volunteers have to buy their own bioreactors
 - We have volunteers, but none have both the time and ability to set this system up.
 
 ## Existing Tech
 
 - The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
-
 - It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
+- We have no volunteer database, but can request input from volunteers via [our forum](https://forum.amybo.org) and [YouTube](https://amy.bo/YouTube)
 
 ## Scope
 
@@ -53,7 +53,7 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 - It will also allow us to monitor if free-rental bioreactors are being used as intended.
 
-- We would like to have an initial data sharing platform set up by the end of Q1.
+- We would ideally like to have an initial data sharing platform set up by the end of Q1.
 
 ## Barriers to Project
 
@@ -98,7 +98,7 @@ We are happy for STA to acknowledge the work we are doing with us and would poss
 ---
 
 **Organisation main contact**: Martin Currie  
-**STA contact**: Name here  
+**STA contact**: Jean Ferguson 
 **Date**: 08/01/2025  
 
 **Organisation top stakeholders**: Martin Currie, Gerrit Niezen, Cam Davison-Pilon (founder of Pioreactor who will likely be helpful via [forum.pioreactor.com](https://forum.pioreactor.com))
