@@ -8,13 +8,13 @@ The [original STA word document is available here](https://github.com/Amybo-org/
 
 ## Background of the charity
 
-AMYBO ([amy.bo](https://amy.bo)) is a non-profit organisation that is developing alternative protein that is so delicious, nutritious and affordable that communities in Scotland and across the world will produce & eat it instead of meat. We project this will:
+AMYBO ([amy.bo](https://amy.bo)) is a non-profit organisation that aims to developing alternative protein that is be so delicious, nutritious and affordable that communities in Scotland and across the world will produce & eat it instead of meat. Once achieved this should:
 
-- lower Scottish (& eventually global) greenhouse gas emissions by 8%
-- free >2M hectares of land in Scotland alone for rewilding - to halt biodiversity loss
+- lower Scottish (& eventually global) greenhouse gas emissions by >8%
+- free >2M hectares of land in Scotland alone for rewilding - reducing biodiversity loss
 - reduce diet-related deaths in Scotland by >1,200/annum and eventually end global food crises
 
-We have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, healthy and economical strains.
+To date have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, healthy and economical strains.
 
 These bioreactors measure the optical density of the culture every 5 seconds so we can determine how quickly the HOB are growing.
 
