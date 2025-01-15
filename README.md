@@ -32,8 +32,11 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 ## Scope
 
-- Software on Pioreactor to automatically send standard data plus a number of additional text user-inputs to a data sharing platform
+- Software on Pioreactor to automatically send standard pioreactor data and additional experiment data to a data sharing platform
   - The Pioreactor software should if possible be implemented as a [Pioreactor Plugin](https://docs.pioreactor.com/developer-guide/intro-plugins).
+  - additional experiment data includes:
+    - metadata that would be required in order to allow someone to repeat any given experiment (sample location, standard protocols and reagents used and any deviations from those standards)
+    - timestamped actions (e.g. "I removed the vial for 10 seconds") that could subsequently be added as graph annotations
 - The data sharing platform collates data from electroPioreactors (scaleable to 1000’s)
 - Ability for anyone to download the dataset for analysis (assuming a manual download is easier than an API)
 - Training: It would be great to document the system both in the software and via training videos to ensure that it can be maintained long term by any volunteers.
