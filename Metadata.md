@@ -1,6 +1,7 @@
-# Experiment data
-Metadata that would be required to allow someone to repeat any given experiment and would be required to be entered, comprising:
-## [ELN Consortium](https://github.com/TheELNConsortium/TheELNFileFormat/blob/master/SPECIFICATION.md) metadata
+# DSP Metadata
+## Experiment data
+Metadata that would be required to document and allow someone to repeat any given experiment, comprising:
+### [ELN Consortium](https://github.com/TheELNConsortium/TheELNFileFormat/blob/master/SPECIFICATION.md) metadata
 - name
 - author
 - description
@@ -8,18 +9,22 @@ Metadata that would be required to allow someone to repeat any given experiment 
 - links/mentions
 - keywords
 
-## Additional metadata
+### Additional metadata
 - Sample
   - Sample location
   - Sample type (water, soil, inoculum, other)
   - Link to sample collection video
 - Experimental protocol
+  - Pick list of protocols + other
   - Deviations from protocol
 - Standard reagents
+  - Pick list of standard reagents (possibly linked to experimental protocols)
   - Deviations from standard reagents
 
-# Timestamped data
-## [ELN Consortium](https://github.com/TheELNConsortium/TheELNFileFormat/blob/master/SPECIFICATION.md) metadata
+These additional metadata may be classed as 'comment' under the [ELN Consortium](https://github.com/TheELNConsortium/TheELNFileFormat/blob/master/SPECIFICATION.md) standards
+
+## Timestamped data
+### [ELN Consortium](https://github.com/TheELNConsortium/TheELNFileFormat/blob/master/SPECIFICATION.md) metadata
 - comment
 - status
 - step
