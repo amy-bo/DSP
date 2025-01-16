@@ -8,26 +8,26 @@ The [original STA word document is available here](https://github.com/Amybo-org/
 
 ## Background of the charity
 
-AMYBO ([amy.bo](https://amy.bo)) is a non-profit organisation that aims to developing alternative protein that is be so delicious, nutritious and affordable that communities in Scotland and across the world will produce & eat it instead of meat. Once achieved this should:
+AMYBO ([amy.bo](https://amy.bo)) is a non-profit organisation that aims to develop alternative protein that is so delicious, nutritious and affordable that communities in Scotland and across the world will produce & eat it instead of meat. Once achieved this should:
 
 - lower Scottish (& eventually global) greenhouse gas emissions by >8%
 - free >2M hectares of land in Scotland alone for rewilding - reducing biodiversity loss
 - reduce diet-related deaths in Scotland by >1,200/annum and eventually end global food crises
 
-To date have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, healthy and economical strains.
+To date, we have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, healthy and economical strains.
 
 These bioreactors measure the optical density of the culture every 5 seconds so we can determine how quickly the HOB are growing.
 
 ## Problem
 
-- In order to compare the growth of different HOB cultures in what we hope will be thousands of bioreactors, we need to get that data online.
+- To compare the growth of different HOB cultures in what we hope will be thousands of bioreactors, we need to get that data online.
 - We also want to give bioreactors away on a ‘free rental’ basis, so people pay nothing as long as they are doing useful experiments. We need an automated means of determining if this is happening.
 - We (and many others) would like to train AI on bioreactor data, but there is insufficient data available online (LLMs and Google’s AlphaFold were only successful because of the amount of data they could be trained on).
 
 ## Current state
 
 - If they remember, people manually upload graphs of their data to [forum.amybo.org](https://forum.amybo.org) - at least 2 have to date
-- Volunteers have to buy their own bioreactors
+- Volunteers must buy their own bioreactors
 - We have volunteers, but none have both the time and ability to set this system up.
 
 ## Scope
@@ -35,9 +35,9 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 - Software on Pioreactor to automatically send standard pioreactor data and additional experiment data to a data sharing platform
   - The Pioreactor software should if possible be implemented as a [Pioreactor Plugin](https://docs.pioreactor.com/developer-guide/intro-plugins).
   - additional experiment data includes:
-    - metadata that would be required in order to allow someone to repeat any given experiment (sample location, standard protocols and reagents used and any deviations from those standards)
+    - metadata that would be required to allow someone to repeat any given experiment (sample location, standard protocols and reagents used and any deviations from those standards)
     - timestamped actions (e.g. "I removed the vial for 10 seconds") that could subsequently be added as graph annotations
-- The data sharing platform collates data from electroPioreactors (scaleable to 1000’s)
+- The data sharing platform collates data from electroPioreactors (scalable to 1000’s)
 - Ability for anyone to download the dataset for analysis (assuming a manual download is easier than an API)
 - Training: It would be great to document the system both in the software and via training videos to ensure that it can be maintained long term by any volunteers.
 
@@ -51,12 +51,12 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 ## Barriers to Project
 
 - Our constraints to date have been time/ability mismatches and lack of funding to contract out the project.
-- Martin has no planned holiday in the next 3 months, and works on AMYBO 95% full time.
+- Martin has no planned holiday in the next 3 months and works on AMYBO 95% full time.
 
 ## What conditions exist?
 
 - We will need to lend developers a Pioreactor. We are fully open source - no NDA.
-- The AMYBO community is in a position to procure/scale up the solution service for medium or long-term use – Prof Joshua Pearce of [uwo.ca](https://uwo.ca) offered to fund 10 electroPioreactors with $100k in kind academic support for a pilot trial, with hopefully 100 electroPioreactors to follow if successful.
+- The AMYBO community can procure/scale up the solution service for medium or long-term use – Prof Joshua Pearce of [uwo.ca](https://uwo.ca) offered to fund 10 electroPioreactors with $100k in kind academic support for a pilot trial, with hopefully 100 electroPioreactors to follow if successful.
 
 ## Current/Existing Technology
 
