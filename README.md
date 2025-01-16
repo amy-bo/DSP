@@ -61,8 +61,9 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 - The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
 - It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
 - We have no volunteer database, but can request input from volunteers via [our forum](https://forum.amybo.org) and [YouTube](https://amy.bo/YouTube)
-- We have not started development of the Data Sharing Platform other than opening a [public repo](https://github.com/Amybo-org/DSP).
-
+- We have not started development of the Data Sharing Platform (DSP) other than:
+  - opening this [public repo](https://github.com/Amybo-org/DSP).
+  - submitting a [Launchpad](https://apply-for-innovation-funding.service.gov.uk/competition/2065/overview/6d536724-a70d-4a68-903c-09e08680b895) application with scope for [Firefinch](https://firefinch.io/) to deliver the non-Pioreactor elements of the DSP - we should know whether this is successful by 7 February but could not afford Firefinch support without this funding.
 
 ## Technology
 
