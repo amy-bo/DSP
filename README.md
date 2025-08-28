@@ -55,7 +55,7 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 - Our constraints to date have been time/ability mismatches and lack of funding to contract out the project.
 - Martin has no planned holiday in the next 3 months and works on AMYBO 95% full time.
-- We are due to hold a [CARMA Hub project](https://carmahub.co.uk/about-us/pump-priming-projects/#:~:text=Affordable%20Aseptic%20Electro%2DBioreactor%20for%20Reproducible%20Hydrogen%20Oxidising%20Bacteria%20(HOB)%20Research) with Imperial College and Edinburgh University determining the repeatability of a new academic Aseptic electroPioreactor.  Ideally, the platform will be piloted during this project. If not feasible, commencement may be postponed until ~April 2026.
+- We are due to commence a 6 month [CARMA Hub project](https://carmahub.co.uk/about-us/pump-priming-projects/#:~:text=Affordable%20Aseptic%20Electro%2DBioreactor%20for%20Reproducible%20Hydrogen%20Oxidising%20Bacteria%20(HOB)%20Research) with Imperial College and Edinburgh University in October.  This aims to determine the repeatability of a new academic Aseptic electroPioreactor.  Ideally, the platform will be piloted during this project. If not feasible, STA DSP project commencement may be postponed until ~April 2026.
 
 ## What conditions exist?
 
