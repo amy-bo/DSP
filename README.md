@@ -47,9 +47,12 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 ## Goal
 
 - Pioreactors can be set up automatically to stream relevant data to an open source data sharing platform.
-- Having all this data on a data sharing platform will allow researchers to collaborate and learn from each other's work, it will allow them to train AI and digital twins on this data and
+- Having all this data on a data sharing platform will allow researchers to:
+  - collaborate on projects in real-time
+  - learn from each other's work
+  - train AI and digital twins on this data
 - It will also allow us to monitor if free-rental bioreactors are being used as intended.
-- We would ideally like to have an initial data sharing platform set up by the end of Q1.
+- We would ideally like to have an initial data sharing platform set up before the end of 2025.
 
 ## Barriers to Project
 
