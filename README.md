@@ -4,7 +4,7 @@ Our data sharing platform which initially aims to let [Pioreactor](https://piore
 
 # STA Scoping
 
-The [original STA word document is available here](https://github.com/Amybo-org/DSP/raw/refs/heads/main/AMYBO-DSP-STA+Project+Scope+Document+V0.4+(6).docx) but going forward, only the [page you are currently reading]([url](https://github.com/amy-bo/DSP/edit/main/README.md)) will be updated.
+The [page you are currently reading](https://github.com/amy-bo/DSP/edit/main/README.md) is the official Scottish Tech Army scoping document, it supersedes the [original STA word document](https://github.com/Amybo-org/DSP/raw/refs/heads/main/AMYBO-DSP-STA+Project+Scope+Document+V0.4+(6).docx) and going forward, only this repo will be updated.
 
 ## Background of the charity
 
@@ -14,30 +14,35 @@ AMYBO ([amy.bo](https://amy.bo)) is a non-profit organisation that aims to devel
 - free >2M hectares of land in Scotland alone for rewilding - reducing biodiversity loss
 - reduce diet-related deaths in Scotland by >1,200/annum and eventually end global food crises
 
-To date, we have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, healthy and economical strains.
+To date, we have developed an open source electrobioreactor that will let volunteers cultivate strains of natural Hydrogen Oxidising Bacteria (HOB) to find the best tasting, nutritious and economical strains.
 
 These bioreactors measure the optical density of the culture every 5 seconds so we can determine how quickly the HOB are growing.
 
 ## Problem
 
 - To compare the growth of different HOB cultures in what we hope will be thousands of bioreactors, we need to get that data online.
-- We also want to give bioreactors away on a ‘free rental’ basis, so people pay nothing as long as they are doing useful experiments. We need an automated means of determining if this is happening.
-- We (and many others) would like to train AI on bioreactor data, but there is insufficient data available online (LLMs and Google’s AlphaFold were only successful because of the amount of data they could be trained on).
+- We also want to give bioreactors away on a ‘free rental’ basis, so people pay nothing as long as they are doing useful experiments. We require an automated system to verify experimental activity.
+- Many researchers would like to train AI on bioreactor data, but there is insufficient data available online (LLMs and Google’s AlphaFold were only successful because of the amount of data they could be trained on).
 
 ## Current state
 
-- If they remember, people manually upload graphs of their data to [forum.amybo.org](https://forum.amybo.org) - at least 2 have to date
+- If they remember, people manually upload graphs of their data to [forum.amybo.org](https://forum.amybo.org) or submit pull requests to add experiments to [our docs](https://amybo.org/docs/experiments/)
 - Volunteers must buy their own bioreactors
-- We have volunteers, but none have both the time and ability to set this system up.
+- We currently lack volunteers with both the time and technical expertise to establish the system.
 
 ## Scope
 
-- Software on Pioreactor to automatically send standard pioreactor data and additional experiment data to a data sharing platform
+- Software on Pioreactor to automatically send standard Pioreactor data and additional experiment data to a data sharing platform
   - The Pioreactor software should if possible be implemented as a [Pioreactor Plugin](https://docs.pioreactor.com/developer-guide/intro-plugins).
   - additional experiment data is listed in [Metadata.md](Metadata.md)
 - The data sharing platform collates data from electroPioreactors (scalable to 1000’s)
+- Ability for users to select and compare multiple experimental runs including:
+  - the ability to graph multiple experimental runs - with x-axis shifting for easy comparison
+  - the ability to numerically compare larger groups of experimental runs
 - Ability for anyone to download the dataset for analysis (assuming a manual download is easier than an API)
-- Training: It would be great to document the system both in the software and via training videos to ensure that it can be maintained long term by any volunteers.
+- Training:
+  - The system should be fully documented in the software (both front end and code) to ensure that it can be maintained long term by any volunteers.
+  - AMYBO can then also produce training videos.
 
 ## Goal
 
@@ -50,20 +55,18 @@ These bioreactors measure the optical density of the culture every 5 seconds so 
 
 - Our constraints to date have been time/ability mismatches and lack of funding to contract out the project.
 - Martin has no planned holiday in the next 3 months and works on AMYBO 95% full time.
+- We are due to hold a [CARMA Hub project](https://carmahub.co.uk/about-us/pump-priming-projects/#:~:text=Affordable%20Aseptic%20Electro%2DBioreactor%20for%20Reproducible%20Hydrogen%20Oxidising%20Bacteria%20(HOB)%20Research) with Imperial College and Edinburgh University determining the repeatability of a new academic Aseptic electroPioreactor.  Ideally, the platform will be piloted during this project. If not feasible, commencement may be postponed until ~April 2026.
 
 ## What conditions exist?
 
 - We will need to lend developers a Pioreactor. We are fully open source - no NDA.
-- The AMYBO community can procure/scale up the solution service for medium or long-term use – Prof Joshua Pearce of [uwo.ca](https://uwo.ca) offered to fund 10 electroPioreactors with $100k in kind academic support for a pilot trial, with hopefully 100 electroPioreactors to follow if successful.
+- The AMYBO community can procure/scale up the solution service for medium or long-term use.
 
 ## Current/Existing Technology
 
 - The electroPioreactor is detailed [here](https://amy.bo/electropioreactor)
 - It is based on the Pioreactor which is thoroughly documented at [docs.pioreactor.com](https://docs.pioreactor.com)
 - We have no volunteer database, but can request input from volunteers via [our forum](https://forum.amybo.org) and [YouTube](https://amy.bo/YouTube)
-- We have not started development of the Data Sharing Platform (DSP) other than:
-  - opening this [public repo](https://github.com/Amybo-org/DSP).
-  - submitting a [Launchpad](https://apply-for-innovation-funding.service.gov.uk/competition/2065/overview/6d536724-a70d-4a68-903c-09e08680b895) application with scope for [Firefinch](https://firefinch.io/) to deliver the non-Pioreactor elements of the DSP - we should know whether this is successful by 7 February.
 
 ## Technology
 
@@ -91,9 +94,9 @@ We are happy for STA to acknowledge the work we are doing with us and would poss
 
 - **Organisation main contact**: [Martin Currie](https://martin.aqueum.com)
 - **STA contact**: Jean Ferguson 
-- **Date**: 08/01/2025  
+- **Date**: 28/08/2025  
 
 - **Organisation top stakeholders**:
   - [Martin Currie](https://martin.aqueum.com)
   - [Gerrit Niezen](https://labcrafter.co.uk/pages/about-us)
-  - [Cam Davison-Pilon](https://github.com/camdavidsonpilon) (founder of Pioreactor who, while on paternity leave, will still likely be helpful via [forum.pioreactor.com](https://forum.pioreactor.com))
+  - [Cam Davison-Pilon](https://github.com/camdavidsonpilon) (founder of Pioreactor)
